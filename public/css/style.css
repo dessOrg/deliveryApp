@@ -1,0 +1,18 @@
+body {
+  padding-top:30px;
+
+ }
+.backg{
+  background-image: url(images/pic.jpg);
+  background-size: cover;
+  color: blue;
+}
+.cont {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.nav {
+  background-color: silver;
+}

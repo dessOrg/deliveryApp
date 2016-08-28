@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+
+	<title>MEAN SCALFOLD</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
+
+	<!-- JS -->
+	<script src="libs/angular/angular.min.js"></script>
+	<script src="libs/angular-route/angular-route.min.js"></script>
+
+	<!-- ANGULAR CUSTOM -->
+	<script src="js/controllers/MainCtrl.js"></script>
+	<script src="js/controllers/UserCtrl.js"></script>
+	<script src="js/services/UserService.js"></script>
+	<script src="js/controllers/TestCtrl.js"></script>
+	<script src="js/services/TestService.js"></script>
+	<script src="js/appRoutes.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body ng-app="sampleApp" ng-controller="UserController" >
+<div class="container" >
+	<!-- HEADER WRAPPER -->
+	<div class="container fixed-top" style="background-image: url(images/pic1.jpeg); background-size : cover; color : gray">
+	<div class="row" >
+<div class="col-lg-12" >
+	<div class="row" >
+	<div class="col-lg-4" style="">
+  <h3>MOMBASA DELIVERY PLATFORM LOGO</h3>
+	</div>
+	<div class="col-lg-8" style="">
+   <h3>GET WHAT YOU WANT AT COMFORT OF YOUR COUCH</h3>
+	</div>
+	</div>
+</div>
+	</div>
+
+	<!-- HEADER -->
+	<div class="row">
+		<div class="col-lg-offset-3 col-lg-4">
+	<nav class="nav navbar navbar-inverse">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">DeliveryApp</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="/user">Grocceries</a></li>
+			<li><a href="/test">Others</a></li>
+		</ul>
+	</nav>
+</div>
+</div>
+</div>
+
+	<!-- ANGULAR DYNAMIC CONTENT -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>ABOUT US</h3>
+							<h4>HODI HUB is a mombasa based delivery hub . We deliver different categories of goods such as groceries ,pizza and local dailies. With a small fee you have all you need at comfort of your couch.  </h4>
+          <span ><img src="images/pic.jpg" style="width : 250px;">all in one</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-7">
+	<div class="row" >
+		<div class="col-lg-12">
+	<div ng-view >
+
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
