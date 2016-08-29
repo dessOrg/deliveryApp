@@ -1,6 +1,6 @@
 body {
   padding-top:30px;
-
+  overflow-x: hidden;
  }
 .backg{
   background-image: url(images/pic.jpg);
@@ -15,4 +15,37 @@ body {
 }
 .nav {
   background-color: silver;
+}
+.left-bar {
+  border-style : groove;
+
+}
+.item {
+
+}
+.product {
+  overflow: hidden;
+  min-width: 80px;
+  margin-left: 0 !important;
+}
+.product-image {
+  height: 90px;
+  width: 90px;
+}
+.ad-image {
+  height: 100px;
+  width: 140px;
+}
+.ro {
+    border-bottom: 1px solid #ccc;
+}
+.ad-row {
+  border: 1px solid #ccc;
+}
+.panel-heading {
+  background-color: silver;
+}
+
+.col-md-6:not(:last-child) {
+    border-right: 1px solid #ccc;
 }

@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<base href="/">
 
-	<title>MEAN SCALFOLD</title>
+	<title>Hodi</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
@@ -19,6 +19,7 @@
 	<script src="js/controllers/UserCtrl.js"></script>
 	<script src="js/services/UserService.js"></script>
 	<script src="js/controllers/TestCtrl.js"></script>
+	<script src="js/jquery/slide.js"></script>
 	<script src="js/services/TestService.js"></script>
 	<script src="js/appRoutes.js"></script>
 	<script src="js/app.js"></script>
@@ -42,13 +43,16 @@
 
 	<!-- HEADER -->
 	<div class="row">
-		<div class="col-lg-offset-3 col-lg-4">
+		<div class="col-lg-offset-1 col-lg-8">
 	<nav class="nav navbar navbar-inverse">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="/">DeliveryApp</a>
 		</div>
 		<ul class="nav navbar-nav">
-			<li><a href="/user">Grocceries</a></li>
+			<li><a href="/user">Groceries & Staples</a></li>
+			<li><a href="/test">Fruits-Vegetables</a></li>
+			<li><a href="/user">BodyCare</a></li>
+			<li><a href="/test">Pizza</a></li>
 			<li><a href="/test">Others</a></li>
 		</ul>
 	</nav>
@@ -59,17 +63,10 @@
 	<!-- ANGULAR DYNAMIC CONTENT -->
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2>ABOUT US</h3>
-							<h4>HODI HUB is a mombasa based delivery hub . We deliver different categories of goods such as groceries ,pizza and local dailies. With a small fee you have all you need at comfort of your couch.  </h4>
-          <span ><img src="images/pic.jpg" style="width : 250px;">all in one</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-7">
-	<div class="row" >
+
+			<div class="col-lg-12">
+
+				<div class="row" >
 		<div class="col-lg-12">
 	<div ng-view >
 
