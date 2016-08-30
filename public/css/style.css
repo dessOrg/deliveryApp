@@ -44,6 +44,10 @@ body {
 }
 .panel-heading {
   background-color: silver;
+
+}
+.panel-title {
+  color : blue;
 }
 
 .col-md-6:not(:last-child) {
