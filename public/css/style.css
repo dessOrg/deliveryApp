@@ -53,3 +53,7 @@ body {
 .col-md-6:not(:last-child) {
     border-right: 1px solid #ccc;
 }
+.img {
+  height: 10px;
+  width: 40px;
+}
