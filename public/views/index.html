@@ -16,15 +16,20 @@
 
 	<!-- ANGULAR CUSTOM -->
 	<script src="js/controllers/MainCtrl.js"></script>
-	<script src="js/controllers/UserCtrl.js"></script>
-	<script src="js/services/UserService.js"></script>
-	<script src="js/controllers/TestCtrl.js"></script>
+	<script src="js/controllers/GrocerCtrl.js"></script>
+	<script src="js/services/GrocerService.js"></script>
+	<script src="js/controllers/VegeCtrl.js"></script>
+	<script src="js/services/VegeService.js"></script>
+	<script src="js/controllers/BodyCtrl.js"></script>
+	<script src="js/services/BodyService.js"></script>
+	<script src="js/controllers/FoodCtrl.js"></script>
+	<script src="js/services/FoodService.js"></script>
 	<script src="js/jquery/slide.js"></script>
-	<script src="js/services/TestService.js"></script>
+
 	<script src="js/appRoutes.js"></script>
 	<script src="js/app.js"></script>
 </head>
-<body ng-app="sampleApp" ng-controller="UserController" >
+<body ng-app="sampleApp" ng-controller="MainController" >
 <div class="container" >
 	<!-- HEADER WRAPPER -->
 	<div class="container fixed-top" style="background-image: url(images/pic1.jpeg); background-size : cover; color : gray">
@@ -49,11 +54,11 @@
 			<a class="navbar-brand" href="/">DeliveryApp</a>
 		</div>
 		<ul class="nav navbar-nav">
-			<li><a href="/user">Groceries & Staples</a></li>
-			<li><a href="/test">Fruits-Vegetables</a></li>
-			<li><a href="/user">BodyCare</a></li>
-			<li><a href="/test">Pizza</a></li>
-			<li><a href="/test">Others</a></li>
+			<li><a href="/grocer">Groceries & Staples</a></li>
+			<li><a href="/vege">Fruits-Vegetables</a></li>
+			<li><a href="/body">BodyCare</a></li>
+			<li><a href="/food">Pizza</a></li>
+			<li><a href="/other">Others</a></li>
 		</ul>
 	</nav>
 </div>
@@ -76,6 +81,37 @@
 </div>
 </div>
 </div>
+
+<!-- FOOTER CONTENT -->
+<div class="row">
+<div class="col-lg-12 text-center">
+	<div class="panel panel-default">
+<div class="panel-heading">
+<div class="panel-title"><h3>OUR PARTNERS</h3></div>
 </div>
+<div class="panel-body">
+	<div class="row">
+	<div class="col-lg-4">
+	<a><img src="images/swahili.png"></a>
+	</div>
+	<div class="col-lg-4">
+	<a><img src="images/nakumatt.png"></a>
+	</div>
+	<div class="col-lg-4">
+	<a><img src="images/tuskys.png"></a>
+	</div>
+	</div>
+
+	<div><h3>&copy; HODI  2016‐<script> document.write((new Date()).getFullYear()) </script>. All rights reserved.</h3></div>
+		</div>
+
+</div>
+	</div>
+
+</div>
+</div>
+
+</div>
+
 </body>
 </html>
